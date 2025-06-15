@@ -1,0 +1,13 @@
+#use base;
+#use credits;
+
+int bruh = 5;
+int bruh3 = 5;
+int hell_yeah = 40;
+bool bruh2 = true;
+str smth = abrakadabra;
+
+if(bruh3 == bruh) base.log(smth);
+else base.log(bruh);
+
+credits.show();
