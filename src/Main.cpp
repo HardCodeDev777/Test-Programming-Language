@@ -15,7 +15,7 @@
 // Why not
 #ifdef DEBUG_MODE
 #if __cplusplus != 199711L
-#define LOG_VERION_WARNING std::cout << "Warning: original code was written in C++98. Now you are using " << __cplusplus << " verion" << std::endl;
+#define LOG_VERION_WARNING std::cout << "Warning: original code was written in C++98. Now you are using " << __cplusplus << " version" << std::endl;
 #endif
 #endif
 
@@ -194,8 +194,8 @@ void parse_base_log_method(int& i, std::string output) {
 void parse_credits_show_method() {
 	LOG("Author: HardCodeDev");
 	LOG("License: MIT");
-	LOG("Why did I do this?: Cuz I was boring");
-	LOG("Btw this method more for testing libraries and methods. So yeah, that's show() method");
+	LOG("Why did I do this?: Cuz I was bored");
+	LOG("Btw this method more for testing libraries and methods. So yes, that's show() method");
 }
 
 // Method for parsing methods from libraries
